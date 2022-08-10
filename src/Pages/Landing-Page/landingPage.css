@@ -1,0 +1,80 @@
+:root
+{
+    --primary-color:#EB5353;
+    --secondary-color: #F9D923 ;
+}
+
+.landing-page
+{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+align-content: center;
+}
+
+.landing-info
+{
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.app-name
+{
+    
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 64px;
+/* identical to box height, or 89% */
+
+
+color: var(--primary-color);
+
+}
+.eazy-clr
+{
+    color: var(--secondary-color);
+}
+
+.app-tagline
+{
+   
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 54px;
+color: var(--secondary-color);
+
+}
+.eazy-clr1
+{
+    color: var(--primary-color); 
+}
+
+.app-desc
+{
+    font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.explr-btn
+{
+    height: 64.85804748535156px;
+width: 229px;
+background-color: var(--primary-color); 
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+border-radius: 0.5rem;
+text-align: center;
+border-color: #FFFFFF;
+
+
+}
